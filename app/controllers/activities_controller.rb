@@ -12,6 +12,6 @@ class ActivitiesController < ApplicationController
 
     private
     def find_activity
-        activity = Activity.find_by[id: params[:id]]
+        activity = Activity.find_by(id: params[:id])
     end
 end
